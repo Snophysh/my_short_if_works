@@ -11,8 +11,8 @@ You lay on the blue sand, staring up at the burnt orange sky, the soft hum of an
 "No rush," he says and resumes staring off into the horizon.
 
 * (headOutFirst)[Head out.] -> driving
-* [Stay for a bit longer.] -> stay_a_bit -> driving
-* [Ask him to join you down here.] -> join_me -> driving
+* [Stay for a bit longer.] -> stay_a_bit -> night_fall -> driving
+* [Ask him to join you down here.] -> join_me -> night_fall -> driving
 
 = stay_a_bit
 
@@ -35,25 +35,49 @@ You open your eyes and adjust to the twilight. As you begin to sit up you can fe
     
     "Its a bit niche but its actually quiet similar to the work we're doing now," he says and taps the warming cube. The light brightens as the heat intensifies. You begin to take off your jacket. He continues, "So instead of traveling and making request videos I would travel and write down my emotional experience of the moment a customer wanted captured."
     
-    It was completely dark now, the only light sources being the glowing warming cube and the soft headlights of the still running Jeep<sup>TM</sup>.
-    
-    "Really? I figured people would prefer video over a e-letter," you say. Garrun shakes his head, a rue smile on his lips.
-    
-    "Video only captures the moment, but not the true feeling of it. What one would experience being there and the emotional journey such moments elicit," he says. He has stopped playing with the sand now and begins removing two food packs from his pocket. "Blueberry or Blood Orange?" he asks.
-    
-    ** [Blueberry.]
-    ** [Blood Orange.]
-    ** [Your not hungry.]
+    ** [Wouldn't people prefer video over words?]
+        "Really? I figured people would prefer video over a e-letter," you say. Garrun shakes his head, a rue smile on his lips.
+        
+        "Video only captures the moment, but not the true feeling of it. What one would experience being there and the emotional journey such moments elicit," he says.
+    ** [You think its a novel idea.]
+    ** []
+    --
     
 * [Agree. You wish everyone could experience this.]
     
 
 * [Ask what vector he is from.]
 
-- 
-
-->->
+- ->->
 
 = join_me
 
 ->->
+
+= night_fall
+
+     You look back out over the horizon. The lights completely gone now. A bright orange moon looms above. The only other light sources being the glowing warming cube and the soft headlights of the still running Jeep<sup>TM</sup>. Garrun gazes at the expanse above.
+     
+     "Kinda snuck up on us," he says taking a quick glance at his watch.
+     
+     "What time is it?" you ask.
+     
+     "1800 terran hours," Garrun replies as he gets up and heads to the Jeep<sup>TM</sup>. He begins rummaging through the packs in the back seat. "Give or take a few hours as Onyn doesn't operate on a 24 hour cycle." He pulls out two silver wrapped food packages.
+     
+     "Blueberry or Blood Orange?" he asks.
+    
+    * (blueberry)[Blueberry.]
+    "Bluberry,"
+    * (orange)[Blood Orange.]
+    "Blood Orange,"
+    * [Your not hungry.]
+    
+    -
+        {
+        - blueberry or orange:
+            <> you say and he hands you the pack, resuming his spot beside you. You eat in silence for a bit before he continues.
+        - else:
+            "Thanks, but not I'm quite hungry yet," you say. He shrugs and opens a pack, resuming his spot beside you. You both sit in silence for a bit before he speaks again.
+    }
+    
+    ->->
