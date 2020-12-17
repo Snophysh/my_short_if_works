@@ -43,3 +43,9 @@ Can only be found on planet Onyn. It only blooms when exposed to a certain frequ
 ### Onyn
 
 A desert like planet with blue sands. 
+
+### Lucifer's Dune
+
+A giant red mounds of sand the glows almost as if it's breathing. Strong reverberating sounds move in time with the glow. The sands on the mound slowing shifting counter clockwise. 
+
+One of the many mystery's of Onyn. No one knows what makes it glow or rotate. Anyone who gets close turns around as if mind control.
